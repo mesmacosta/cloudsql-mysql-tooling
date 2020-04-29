@@ -2,7 +2,7 @@
 
 Scripts with the goal to enable easy usage of some MySQL operations.
 
-## INIT datanase
+## INIT database
 Execute
 ```bash
 ./init-db.sh
