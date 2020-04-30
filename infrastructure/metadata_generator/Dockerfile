@@ -1,4 +1,4 @@
-# docker build -t mysql2-metadata-generator .
+# docker build -t mysql-metadata-generator .
 FROM python:3.7
 
 WORKDIR /lib
