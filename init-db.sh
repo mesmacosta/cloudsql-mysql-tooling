@@ -56,7 +56,7 @@ echo -e "\033[1;42m [STEP 3] POPULATE DATABASE \033[0m"
 
 # Generate Metadata
 docker run --rm --tty \
-#ADD DOCKER IMAGE:stable  \
+mesmacosta/mysql-metadata-generator:stable  \
 --mysql-host=$public_ip_address \
 --mysql-user=$username \
 --mysql-pass=$password \

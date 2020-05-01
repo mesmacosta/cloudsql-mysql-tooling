@@ -14,7 +14,7 @@ password=${password//\"/}
 database=${database//\"/}
 
 docker run --rm --tty -v \
-"$PWD":/data #ADD DOCKER IMAGE:stable  \
+"$PWD":/data mesmacosta/mysql-db-cleaner:stable \
 --mysql-host $public_ip_address \
 --mysql-user $username \
 --mysql-pass $password \
