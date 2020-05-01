@@ -10,5 +10,3 @@ instance_id=${instance_id//\"/}
 cd $root_dir
 
 gcloud sql connect $instance_id --user=admin
-
-
